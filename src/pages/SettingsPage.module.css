@@ -1,0 +1,92 @@
+.control{
+    background-color: #fff;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: auto;
+    padding: 2em;
+    text-align: left;
+    width: 100%;
+
+}
+.control h1{
+    font-size: 1.5em;
+    margin-bottom: 1.2em;
+}
+.control label{
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+.control input {
+    font: inherit;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid #80808077;
+    width: 100%;
+    text-align: left;
+    padding: 0.25rem;
+    padding-left: 1em;
+    height: 40px;
+  }
+  .control input:focus {
+    outline: none;
+    border-color: #03045e;
+    background-color: #fff;
+  }
+  .invalid input{
+    border: 1px solid #b40e0e;
+    background-color: #fddddd;
+  }
+  .invalid input:focus{
+    border-color: #ff8800;
+    background-color: #fbe8d2;
+  }
+  .actions{
+      display: flex;
+      justify-content: space-between;
+  }
+  .actions button {
+    cursor: pointer;
+    font: inherit;
+    color: white;
+    background-color: #03045e;
+    border: 1px solid #03045e;
+    border-radius: 10px;
+    width: 48%;
+    margin-top: 1.5em;
+  }
+  
+  .actions button:hover {
+    background-color: #023e8a;
+    border-color: #023e8a;
+  }
+ .actions button:disabled,
+.action button:disabled:hover,
+.action button:disabled:active {
+  background-color: #ccc;
+  color: #292929;
+  border-color: #ccc;
+  cursor: not-allowed;
+}
+  
+  .actions .toggle {
+    border: 1px solid transparent;
+    background-color: transparent;
+    color: #03045e;
+    padding: 0.5rem 2.5rem;
+  }
+  
+  .actions .toggle:hover {
+    background-color: transparent;
+    color: #03045e;
+    border: 1px solid #03045e;
+
+  }
+.error-text {
+    margin-top: 0.5em;
+    color: #b40e0e;
+  }
+.loader{
+  align-self: center;
+  text-align: center;
+}

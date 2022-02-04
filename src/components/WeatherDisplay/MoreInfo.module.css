@@ -1,0 +1,60 @@
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container .day{
+    font-size: 1.2em;
+    font-weight: 300;
+}
+.temperature{
+    display: flex;
+    flex-direction: column;
+    background-color: #00b4d8;
+    border-radius: 10px;
+    text-align: center;
+    padding: 1em;
+    align-items: center;
+}
+.temperature .temp{
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 1em 0 0 0;
+}
+.temperature > div{
+    display: flex;
+}
+.temperature .element{
+    padding: 0;
+}
+.temperature svg{
+    color: #fff;
+}
+.element{
+    background-color: #00b4d8;
+    border-radius: 10px;
+    color: #fff;
+    padding: 0.5em 1em;
+    margin: 0.5em;
+    text-align: center;
+}
+.header{
+    font-weight: bold;
+    margin-bottom: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conditions{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+@media (max-width: 300px) {
+    .conditions{
+        grid-template-columns: 1fr;
+    }
+}

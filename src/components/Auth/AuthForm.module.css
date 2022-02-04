@@ -1,0 +1,125 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.element{
+  display: inline;
+  flex-direction: column;
+  align-self: center;
+  justify-self: start;
+  width: 100%;
+  max-width: 600px;
+  padding: 10% 2em 0 2em;
+  border-radius: 10px;
+}
+  
+  .element h1 {
+    color: #000;
+    font-weight: normal;
+    font-size: 1.6em;
+  }
+
+  .element .reset-form{
+    margin: 2em 0;
+  }
+  
+  .control {
+    margin-bottom: 1rem;
+  }
+  
+  .control label {
+    display: block;
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+
+  .control a{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    margin: 0.5em 0;
+  }
+  
+  .control input {
+    font: inherit;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid #80808077;
+    width: 100%;
+    text-align: left;
+    padding: 0.25rem;
+    padding-left: 1em;
+    height: 40px;
+  }
+  .control input:focus {
+    outline: none;
+    border-color: #03045e;
+    background-color: #fff;
+  }
+  .invalid input{
+    border: 1px solid #b40e0e;
+    background-color: #fddddd;
+  }
+  .invalid input:focus{
+    border-color: #ff8800;
+    background-color: #fbe8d2;
+  }
+  .actions {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .actions button {
+    cursor: pointer;
+    font: inherit;
+    color: white;
+    background-color: #03045e;
+    border: 1px solid #03045e;
+    border-radius: 10px;
+    padding: 0.5rem 2.5rem;
+    width: 100%;
+    margin-bottom: 0.5em;
+  }
+  
+  .actions button:hover {
+    background-color: #023e8a;
+    border-color: #023e8a;
+  }
+ .actions button:disabled,
+.action button:disabled:hover,
+.action button:disabled:active {
+  background-color: #ccc;
+  color: #292929;
+  border-color: #ccc;
+  cursor: not-allowed;
+}
+  
+  .actions .toggle {
+    margin-top: 1rem;
+    background-color: transparent;
+    color: #03045e;
+    border: none;
+    padding: 0.15rem 1.5rem;
+  }
+  
+  .actions .toggle:hover {
+    background-color: transparent;
+    color: #023e8a;
+  }
+
+  .flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .error-text {
+    margin-top: 0.5em;
+    color: #b40e0e;
+  }
+
+
+ 

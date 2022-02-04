@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.centered{
+  text-align: center;
+}
+html {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #faf9f9;
+}
+
+.btn {
+  width: 100%;
+  cursor: pointer;
+  font: inherit;
+  border-radius: 10px;
+  padding: 0.5rem 2.5rem;
+  background-color: #fff;
+  border: 1px solid #03045e;
+  color: #03045e  ;
+  margin: 1em 0;
+
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #023e8a;
+  border-color: #023e8a;
+  color: #fff;
+}
+
+.sr-only{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+
+a{
+  text-decoration: none;
+  color: #023e8a;
+}
+a:hover{
+  color: #03045e;
+  text-decoration: underline;
+}
+
+.separator {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #80808077;
+}
+
+.separator::before,
+.separator::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid #80808077;
+}
+
+.separator:not(:empty)::before {
+  margin-right: 1em;
+}
+
+.separator:not(:empty)::after {
+  margin-left: 1em;
+}
+
+svg{
+  margin-right: .5em;
+}
+
+.logo{
+  position: relative;
+  font-size: 2em;
+  font-weight: bold;
+  cursor: pointer;
+  display: inline;
+}
+
+.cta{
+  width: auto;
+  background-color: #03045e;
+  color: #fff !important;
+  border-radius: 10px;
+}
+
+.cta:hover{
+  background-color: #023e8a;
+  text-decoration: none;
+
+}
+
+.text{
+  color: #808080be;
+}
