@@ -25,7 +25,7 @@ The purpose of this project is to develop a web application using React.js so as
 
 <img width="1440" alt="app-view" src="https://user-images.githubusercontent.com/63824455/152637238-97d31ee3-3d9f-4ff5-8d89-46253ec820e8.png">
 <img width="1440" alt="app-view" src="https://user-images.githubusercontent.com/63824455/152637242-09924953-12bd-4a21-b6b2-d78522f4c8e6.png">
-<img width="1440" alt="app-mobile-view" src="https://user-images.githubusercontent.com/63824455/152637245-bf36bb84-3ad1-4c2d-88c1-a62bd382fa8b.png">
+<img width="600" alt="app-mobile-view" src="https://user-images.githubusercontent.com/63824455/152637245-bf36bb84-3ad1-4c2d-88c1-a62bd382fa8b.png">
 
 ### Links
 
