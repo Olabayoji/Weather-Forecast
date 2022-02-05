@@ -55,6 +55,7 @@ The purpose of this project is to develop a web application using React.js so as
 - How to build custom component
 - How to navigate using React Router
 - Performance optimization using lazy loading
+- How to use Google autocomplete to get user address
 
 ### Continued Development
 
