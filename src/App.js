@@ -1,4 +1,4 @@
-import React, { Suspense } from "react";
+import React, { Suspense, useEffect } from "react";
 import { Routes, Route, Navigate } from "react-router-dom";
 import { useSelector } from "react-redux";
 import Loader from "./components/UI/Loader";
@@ -13,6 +13,9 @@ const ErrorPage = React.lazy(() => import("./pages/ErrorPage.js"));
 const SettingsPage = React.lazy(() => import("./pages/SettingsPage.js"));
 
 const App = () => {
+  useEffect(() => {
+    document.title = "Weatherly";
+  }, []);
   return (
     <Suspense
       fallback={() => (
