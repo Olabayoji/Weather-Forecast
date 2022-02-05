@@ -150,8 +150,10 @@ const WeatherDisplay = (props) => {
 
       <Card>
         <p className={classes.description}>14-Day Forecast</p>
-        <hr />
-        <div className={classes.inner}>{forecast}</div>
+        <div className={classes.inner}>
+          <hr />
+          {forecast}
+        </div>
       </Card>
     </React.Fragment>
   );
