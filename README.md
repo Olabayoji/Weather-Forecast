@@ -1,4 +1,4 @@
-# Restaurant Web App
+# Weatherly - Weather Forecast
 
 ## Table of Content
 
